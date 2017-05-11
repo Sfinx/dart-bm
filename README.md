@@ -18,4 +18,4 @@ Adopted the imx_loader to the DART-6UL board.
 
 5. Issue ./imx_usb
 
-6. The spl.imx will be loaded first and u-boot.imx second over SDP. The progress can be monitored and controlled by serial termianl.
+6. The spl.imx will be loaded first and u-boot.imx second over SDP. The progress can be monitored and controlled by serial terminal.
