@@ -537,7 +537,7 @@ out_close_usb:
 	/* More work to do? Try to rediscover the same device */
 	if (curr && !(err < 0)) {
 		for (retry = 0; retry < 10; retry++) {
-			msleep(3000);
+			msleep(500);
 			h = libusb_open_device_with_vid_pid(NULL, mach->vid, mach->pid);
 			if (h)
 				goto retry;
