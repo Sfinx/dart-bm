@@ -8,6 +8,12 @@ DART-6UL configuration:
   Assembly: AS160306159
   Date of production: 2016 Jun 09
   Ram size: 512MB
+Security is low:
+  [!] Chip is open
+  [!] External memory direct boot is enabled
+  [!] JTAG is enabled
+  [!] JTAG mode can be overriden by HAB
+  HAB JTAG mode is disabled
 Waiting for the second loader...
 
 U-Boot 2015.10-18432-g7b48f75-dirty (May 11 2017 - 20:11:34 +0300)
