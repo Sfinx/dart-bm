@@ -2,6 +2,12 @@ SPL loader v0.1
 Boot mode: serial donwload
 SDMMC nanufacture mode: enabled
 i.MX6UL SOC initializing... done
+DART-6UL configuration:
+  NAND WIFI
+  Board part number: VSM-6UL-601
+  Assembly: AS160306159
+  Date of production: 2016 Jun 09
+  Ram size: 512MB
 Waiting for the second loader...
 
 U-Boot 2015.10-18432-g7b48f75-dirty (May 11 2017 - 20:11:34 +0300)
@@ -22,4 +28,4 @@ Err:   serial
 Net:   got MAC0 address from fuse: f8:dc:7a:08:17:7a
 FEC0, usb_ether
 Hit any key to stop autoboot:  0 
-MX6UL_VAR_DART(nand)==>  
+MX6UL_VAR_DART(nand)==> 
